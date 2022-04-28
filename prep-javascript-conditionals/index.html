@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Conditionals</title>
+</head>
+
+<body>
+  <script>
+    var age = 28;
+
+    if (age < 18) {
+      age = 'A child';
+    } else {
+      age = 'An adult';
+    }
+
+    console.log(age);
+
+    var student1Score = 70;
+
+    if (student1Score >= 70) {
+      student1Score = 'Congrats you received a passing grade!';
+    } else {
+      student1Score = 'Oh no you failed!';
+    }
+
+    console.log(student1Score);
+
+    var student2Score = 101;
+
+    if (student2Score < 100) {
+      student2Score = 'A';
+    } else if (student2Score < 90) {
+      student2Score = 'B';
+    } else if (student2Score < 80) {
+      student2Score = 'C';
+    } else if (student2Score < 70) {
+      student2Score = 'D';
+    } else if (student2Score < 60) {
+      student2Score = 'F';
+    } else {
+      student2Score = 'A+++';
+    }
+
+    console.log(student2Score);
+
+    var season = 'spring';
+    if (season === 'summer') {
+      season = "it's hot today";
+    } else if (season === 'spring') {
+      season = 'the flowers are blooming';
+    } else if (season === 'autumn') {
+      season = 'the leaves are changing colors';
+    } else if (season === 'winter') {
+      season = "it's a cold day";
+    } else {
+      season = 'please enter a valid season';
+    }
+    console.log(season);
+
+    var dayOfTheWeek = 'friday';
+    if (dayOfTheWeek === 'saturday' || dayOfTheWeek === 'sunday') {
+      dayOfTheWeek = 'have a good weekend!';
+    } else {
+      dayOfTheWeek = "it's a weekday!";
+    }
+    console.log(dayOfTheWeek);
+  </script>
+</body>
+
+</html>
